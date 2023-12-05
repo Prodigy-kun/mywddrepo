@@ -131,6 +131,7 @@ button {
 }
 .product-list a {
   text-decoration: none;
+  text-align: center;
   color: var(--dark-grey);
 }
 /* Styles for product lists */
@@ -219,4 +220,34 @@ button {
 footer {
   font-size: var(--small-font);
   padding: 1em;
+}
+/* cart total */
+.hide{
+  display: none;
+}
+/* checkout css */
+.products{
+  font-size: 1.13em;
+}
+.checkout{
+  display: block;
+  width: 20%;
+  margin: 0 auto;
+  background-color: #525b0f;
+  color: white;
+  padding: .8em;
+  text-align: center;
+  font-size: 97%;
+  text-decoration: none;
+}
+.products input{
+  display: block;
+  width: 100%;
+  padding: .5em;
+  margin: .8em auto;
+}
+.products fieldset{
+  width: 87%;
+  margin: 1.7em auto;
+  
 }
